@@ -4,7 +4,8 @@
 Whatever you prefer (e.g. `conda` or `venv`)
 ```console
 mkdir myproject
-$ cd myproject
+$ git clone https://github.com/mrkhan02/chatterbot.git
+$ cd chatterbot
 $ python3 -m venv venv
 ```
 
@@ -20,6 +21,9 @@ venv\Scripts\activate
 ### Install PyTorch and dependencies
 
 For Installation of PyTorch see [official website](https://pytorch.org/).
+ ```console
+pip install torch
+ ```
 
 You also need `nltk`:
  ```console

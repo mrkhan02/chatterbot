@@ -29,6 +29,10 @@ You also need `nltk`:
  ```console
 pip install nltk
  ```
+ You also need `gtts`:
+ ```console
+pip install gtts
+ ```
 
 If you get an error during the first run, you also need to install `nltk.tokenize.punkt`:
 Run this once in your terminal:

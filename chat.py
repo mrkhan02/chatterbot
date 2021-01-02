@@ -1,5 +1,16 @@
 import random
 import json
+# Import the required module for text 
+# to speech conversion 
+from gtts import gTTS 
+
+# This module is imported so that we can 
+# play the converted audio 
+import os 
+
+# The text that you want to convert to audio 
+
+
 
 import torch
 
@@ -48,6 +59,14 @@ while True:
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                mytext = random.choice(intent['responses'])
+                print(f"{bot_name}: {mytext}")
+                myobj = gTTS(text=mytext, lang='en', slow=False) 
+                myobj.save("welcome.mp3") 
+                os.system("mpg321 welcome.mp3") 
     else:
         print(f"{bot_name}: I do not understand...")
+        mytext="I do not understand..."       
+        myobj = gTTS(text=mytext, lang='en') 
+        myobj.save("welcome.mp3") 
+        os.system("mpg321 welcome.mp3") 

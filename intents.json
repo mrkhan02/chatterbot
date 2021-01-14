@@ -1,33 +1,73 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
-         "context_set": ""
-        },
-        {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-         "context_set": ""
-        },
-        {"tag": "age",
-         "patterns": ["how old", "how old is colossus", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
-         "context_set": ""
-        },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me colossus.", "I'm colossus!", "I'm colossus."],
-         "context_set": ""
-        },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
-         "context_set": ""
-        },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
-         "context_set": ""
-        }
-   ]
-}
+    {"tag": "branch policy",
+    "patterns": ["minimum cgpa","branch change","minimum strength in a branch"],
+    "responses":["The branch criteria for iit mandi is the one which allows 50% branch change with minimum strength of 20 in priority of cgpa of students in a branch pls refer to the official link below for more details"]
+     
+    },
+    {"tag": "academic plan",
+    "patterns": ["academic calendar","holiday","semester"],
+    "responses":["the academic calender has two semester in a year with vacation between each semester of about 2 months apart from usual holiday on festivals and other events"]
+     
+    },
+    {"tag": "labs",
+    "patterns": ["Number of labs","facility of labs","equipments in labs","labs in campus"],
+    "responses":["IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"]
+     
+    },
+    {"tag": "startup",
+    "patterns": ["startup idea","startup funds","criteria of startup"],
+    "responses":["IIT mandi has been very promotive in creating a start up friendly environment headed by IIT mandi catalyst which incubates and provides platform for an individual to get going. A new startup ,refer to the link below for more details"]
+     
+    },
+    {"tag": "hostel room",
+    "patterns": ["students in a room","room facilites","things available in a room","room"],
+    "responses":["Hostel room in iit mandi has capacity of all sizes from 1-3 all the rooms are equipped with essential commodities like bed tables cupboards windows overall the room is very spacious and illuminated  "]
+     
+    },
+    {"tag": "electronics gadets",
+    "patterns": ["","electric kettle","cooking","induction"],
+    "responses":["all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel"]
+     
+    },
+    {"tag": "cloths",
+    "patterns": ["laundary service","washing machine"],
+    "responses":["each hostel is equipepd with common washing machines "]
+     
+    },
+    {"tag": "hostel",
+    "patterns": ["lift","rooms in a floor","hostel building","room size"],
+    "responses":["the hostel is generally a two floor building with appropriate room size from 1-3 with all commodities like bed table and cupboard"]
+     
+    },
+    {"tag": "washroom",
+    "patterns": ["attached bathroom","common toilet","washroom in a floor","toilet"],
+    "responses":["the washroom is common to each floor with multiple bathing and toilet facilities its sanity is ensured every day and within just a mention the issue related to washrooms are settled on spot"]
+     
+    },
+    {"tag": "academic plan",
+    "patterns": ["academic calendar","holiday","semester"],
+    "responses":["pls refer to below link for more details"]
+     
+    },
+    {"tag": "ventilation",
+    "patterns": ["windows","balcony","terrace"],
+    "responses":["each floor has balcony and each room is equipped with windows"]
+     
+    },
+    {"tag": "security",
+    "patterns": ["lock","cupboard lock","elcetronic security"],
+    "responses":["security has been ensured at each step from election attendance to prohibition of anyone to enter hostel rooms include these"]
+     
+    },
+    {"tag": "internet",
+    "patterns": ["wi-fi","electricity"],
+    "responses":["each and every corner of the hostel is equipped with very high speed wifi details of which will be shared as soon as one is allocated a room apart from these common rooms at each floor has lan cables for very very internet speed and extensive usagss "]
+     
+    },
+
+    {"tag": "mess",
+    "patterns": ["mess timing","mess facility","non-veg","veg"],
+    "responses":["each campus has 2 central and unisex mess timings of which and  the mess menu(both veg and non veg) u can check by clicking the below link"]
+     
+    }
+    ]}

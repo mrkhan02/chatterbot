@@ -69,5 +69,47 @@
     "patterns": ["mess timing","mess facility","non-veg","veg"],
     "responses":["each campus has 2 central and unisex mess timings of which and  the mess menu(both veg and non veg) u can check by clicking the below link"]
      
+    },
+    {"tag": "first year programming",
+    "patterns": ["which programming language is taught in first year"],
+    "responses":["Python is taught in the first year for Data Science 1 and 2"]
+     
+    },
+    {"tag": "competetive coding",
+        "patterns": ["how to start with competetive coding","which language is best for competetive coding"],
+        "responses":["It is recommended to use C++. You can start coding by making an account on any compE website like CF or Codechef"]
+         
+        },
+    {"tag": "open source",
+            "patterns": ["how to start with open source contribution","what is github "],
+            "responses":["programming club sessions will be held where you will be informed on how to start your journey with open source, GitHub is a platform where users can collaborate while making open source contributions"]
+             
+            },
+     {"tag": "python",
+                "patterns": ["what is python", "how to learn it"],
+                "responses":["Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. You can learn it using tutorials on YouTube"]
+                 
+                },
+                
+    {"tag": "cpp",
+        "patterns": ["what is c++", "how to learn cpp", "why cpp in competetive coding"],
+        "responses":["C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. You can learn cpp using YouTube tutorials. It is very fast "]
+                     
+    }, 
+    {"tag": "programming language",
+        "patterns": ["Haxe, java,javascript,cobol,delphi,perl,ruby,clarion"],
+        "responses":[" Haxe, java,javascript,cobol,delphi,perl,ruby,clarion are programming languages. Although they are of not much use in 1st year, you can learn them according  to your interest"]
+                     
+    },
+    {"tag": "Gsoc",
+        "patterns": ["how many gsoc selections in IIT Mandi till now","how many gsoc in last year"," how to do gsoc"],
+        "responses":["30 gsoc selections in iit mandi till now, 9 in last year. Programming club sessions will be held where you'll be informed how to begin"]
+                     
+    },
+    {"tag": "Cyber Security",
+        "patterns": ["how to get started","what is cyber security"," facilties for cyber security","what is capture the flag","what is ethical hacking"],
+        "responses":["Computer security, cybersecurity or information technology security is the protection of computer systems and networks from the theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide. Programming club sessions will be held to get you started with cyber security, CTF and everything related to it."]
+                     
     }
+    
     ]}

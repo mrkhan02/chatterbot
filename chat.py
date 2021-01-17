@@ -72,7 +72,13 @@ while True:
                 os.system("mpg321 welcome.mp3") 
     else:
         print(f"{bot_name}: I do not understand...")
-        mytext="I do not understand..."       
-        myobj = gTTS(text=mytext, lang='en') 
-        myobj.save("welcome.mp3") 
-        os.system("mpg321 welcome.mp3") 
+        print('if your question is related to programming,')
+        print("please type /pro question")
+        print('example:')
+        
+        print("/pro Binary Search Tree")
+        print('or visit https://kamandprompt.zulipchat.com/ ')
+        mytext="I do not understand..."
+        print("if your question is related to IIT Mandi,")
+        print('Visit IIT Mandi wiki @ https://wiki.iitmandi.co.in/p/Main_Page ') 
+        print("if your question is related to bot, visit our GitHub @ https://github.com/mrkhan02/chatterbot")

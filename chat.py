@@ -9,7 +9,7 @@ from gtts import gTTS
 import os 
 
 # The text that you want to convert to audio 
-
+import wikipedia
 
 
 import torch
@@ -43,7 +43,7 @@ while True:
     sentence = input("You: ")
     if sentence == "quit":
         break
-
+    xx=sentence
     sentence = tokenize(sentence)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -56,7 +56,13 @@ while True:
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if(xx[:4] == "/pro"):
+        result = wikipedia.summary(xx[5:], sentences = 2) 
+        print(f"{bot_name}: {result}")
+        myobj = gTTS(text=result, lang='en', slow=False)
+        myobj.save("welcome.mp3")
+        os.system("mpg321 welcome.mp3")
+    elif prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 mytext = random.choice(intent['responses'])

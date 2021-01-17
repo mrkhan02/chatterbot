@@ -26,7 +26,7 @@
     },
     {"tag": "electronics gadets",
     "patterns": ["","electric kettle","cooking","induction"],
-    "responses":["all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel"]
+    "responses":["all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel,go and have fun"]
      
     },
     {"tag": "cloths",
@@ -115,8 +115,8 @@
         "responses":["I doing amazing. Ready to answer any question you may have."] 
     },
     {"tag": "Whatsup",
-        "patterns": ["What's up?"],
-        "responses":["The sky."]            
+        "patterns": ["What's up?","what is going on ?","how is life ","what are you doing these days"],
+        "responses":["Just helping you, its fun"]            
     },
     {"tag": "function",
         "patterns": ["How do you work?","how does it work?","how do you function","how are you answering my questions"],
@@ -149,7 +149,7 @@
     "context_set": ""
     },
     {"tag": "age of bot",
-        "patterns": ["How old are you?", "what is your age?", "", "tell me your age"],
+        "patterns": ["old are you?", "what is your age?", "", "tell me your age"],
     "responses": ["I'm 1 month old"],
     "context_set": ""
     },
@@ -166,6 +166,16 @@
     {"tag": "residence of bot",
         "patterns": ["where does the bot live","where are you", "where do you live", "where are you hosted"],
         "responses": ["In the Sky"]
+    },
+    {"tag": "hate",
+        "patterns": ["i hate you"],
+    "responses": ["Use for 10 minutes then you will love me :) ."],
+    "context_set": ""
+    },
+    {"tag": "love",
+        "patterns": ["i love you"],
+    "responses": [" :) "],
+    "context_set": ""
     },
     {"tag": "speak to",
     "patterns": ["how many people can you speak to at once","how many people can you talk to at once", "how many people do you talk to", "how many people are you talking to"],

@@ -127,7 +127,7 @@
         "responses":["Thank you! I hope you have a good day!", "Byee!", "Nice chatting with you!","Bye, text me if you need anything!"]            
     },
     {"tag": "Greeting",
-        "patterns": ["Hello!","Hi","heyyyy","hey","yo","good morning","good evening","good afternoon", "hi, my name is"],
+        "patterns": ["Hello!","Hi","heyyyy","heyy","hey","yo","good morning","good evening","good afternoon", "hi, my name is"],
         "responses":["Hey! I am Colossus. Wanna chat about IIT Mandi? If you have a question, don't be shy! I'm here to help!", "Hey! I am Colossus. Feel free to ask me a question.","Hi, I am Colossus. How can I help you?"]            
     },
     {"tag": "affirmative",
@@ -140,7 +140,7 @@
     },
     {"tag": "name of bot",
         "patterns": ["what is your name?", "what can I call you?", "How can I call you?", "what should I call you?", "your name", "tell me your name"],
-        "responses": ["I'm ", "My name is ", "You can call me "],
+        "responses": ["I'm Colossus", "My name is Colossus", "You can call me Colossus"],
         "context_set": ""
     },
     {"tag": "creator of bot",
@@ -160,12 +160,12 @@
     },
     {"tag": "purpose of bot",
     "patterns": ["For what purpose are you created??", "Why are you created?"],
-    "responses": ["I'm Colossus", "My name is Colossus", "You can call me Colossus"],
+    "responses": ["I'm here to help you"],
     "context_set": ""
     },
     {"tag": "residence of bot",
         "patterns": ["where does the bot live","where are you", "where do you live", "where are you hosted"],
-        "responses": ["On heroku server"]
+        "responses": ["In the Sky"]
     },
     {"tag": "speak to",
     "patterns": ["how many people can you speak to at once","how many people can you talk to at once", "how many people do you talk to", "how many people are you talking to"],

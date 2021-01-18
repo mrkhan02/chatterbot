@@ -1,184 +1,696 @@
-{"intents": [
-    {"tag": "branch policy",
-    "patterns": ["minimum cgpa","branch change","minimum strength in a branch"],
-    "responses":["The branch criteria for iit mandi is the one which allows 50% branch change with minimum strength of 20 in priority of cgpa of students in a branch pls refer to the official link below for more details"]
-     
-    },
-    {"tag": "academic plan",
-    "patterns": ["academic calendar","holiday","semester"],
-    "responses":["the academic calender has two semester in a year with vacation between each semester of about 2 months apart from usual holiday on festivals and other events"]
-     
-    },
-    {"tag": "labs",
-    "patterns": ["Number of labs","facility of labs","equipments in labs","labs in campus"],
-    "responses":["IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"]
-     
-    },
-    {"tag": "startup",
-    "patterns": ["startup idea","startup funds","criteria of startup"],
-    "responses":["IIT mandi has been very promotive in creating a start up friendly environment headed by IIT mandi catalyst which incubates and provides platform for an individual to get going. A new startup ,refer to the link below for more details"]
-     
-    },
-    {"tag": "hostel room",
-    "patterns": ["students in a room","room facilites","things available in a room","room"],
-    "responses":["Hostel room in iit mandi has capacity of all sizes from 1-3 all the rooms are equipped with essential commodities like bed tables cupboards windows overall the room is very spacious and illuminated  "]
-     
-    },
-    {"tag": "electronics gadets",
-    "patterns": ["","electric kettle","cooking","induction"],
-    "responses":["all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel,go and have fun"]
-     
-    },
-    {"tag": "cloths",
-    "patterns": ["laundary service","washing machine"],
-    "responses":["each hostel is equipepd with common washing machines "]
-     
-    },
-    {"tag": "hostel",
-    "patterns": ["lift","rooms in a floor","hostel building","room size"],
-    "responses":["the hostel is generally a two floor building with appropriate room size from 1-3 with all commodities like bed table and cupboard"]
-     
-    },
-    {"tag": "washroom",
-    "patterns": ["attached bathroom","common toilet","washroom in a floor","toilet"],
-    "responses":["the washroom is common to each floor with multiple bathing and toilet facilities its sanity is ensured every day and within just a mention the issue related to washrooms are settled on spot"]
-     
-    },
-    {"tag": "academic plan",
-    "patterns": ["academic calendar","holiday","semester"],
-    "responses":["pls refer to below link for more details"]
-     
-    },
-    {"tag": "ventilation",
-    "patterns": ["windows","balcony","terrace"],
-    "responses":["each floor has balcony and each room is equipped with windows"]
-     
-    },
-    {"tag": "security",
-    "patterns": ["lock","cupboard lock","elcetronic security"],
-    "responses":["security has been ensured at each step from election attendance to prohibition of anyone to enter hostel rooms include these"]
-     
-    },
-    {"tag": "internet",
-    "patterns": ["wi-fi","electricity"],
-    "responses":["each and every corner of the hostel is equipped with very high speed wifi details of which will be shared as soon as one is allocated a room apart from these common rooms at each floor has lan cables for very very internet speed and extensive usagss "]
-     
-    },
-
-    {"tag": "mess",
-    "patterns": ["mess timing","mess facility","non-veg","veg"],
-    "responses":["each campus has 2 central and unisex mess timings of which and  the mess menu(both veg and non veg) u can check by clicking the below link"]
-     
-    },
-    {"tag": "first year programming",
-    "patterns": ["which programming language is taught in first year"],
-    "responses":["Python is taught in the first year for Data Science 1 and 2"]
-     
-    },
-    {"tag": "competetive coding",
-        "patterns": ["how to start with competetive coding","which language is best for competetive coding"],
-        "responses":["It is recommended to use C++. You can start coding by making an account on any compE website like CF or Codechef"]
-         
+{
+    "intents": [
+        {
+            "tag": "branch policy",
+            "patterns": [
+                "minimum cgpa",
+                "branch change",
+                "minimum strength in a branch"
+            ],
+            "responses": [
+                "The branch criteria for iit mandi is the one which allows 50% branch change with minimum strength of 20 in priority of cgpa of students in a branch pls refer to the official link below for more details"
+            ]
         },
-    {"tag": "open source",
-            "patterns": ["how to start with open source contribution","what is github "],
-            "responses":["programming club sessions will be held where you will be informed on how to start your journey with open source, GitHub is a platform where users can collaborate while making open source contributions"]
-             
-            },
-     {"tag": "python",
-                "patterns": ["what is python", "how to learn it"],
-                "responses":["Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. You can learn it using tutorials on YouTube"]
-                 
-                },
-                
-    {"tag": "cpp",
-        "patterns": ["what is c++", "how to learn cpp", "why cpp in competetive coding"],
-        "responses":["C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. You can learn cpp using YouTube tutorials. It is very fast "]
-                     
-    }, 
-    {"tag": "programming language",
-        "patterns": ["Haxe, java,javascript,cobol,delphi,perl,ruby,clarion"],
-        "responses":[" Haxe, java,javascript,cobol,delphi,perl,ruby,clarion are programming languages. Although they are of not much use in 1st year, you can learn them according  to your interest"]
-                     
-    },
-    {"tag": "Gsoc",
-        "patterns": ["how many gsoc selections in IIT Mandi till now","how many gsoc in last year"," how to do gsoc"],
-        "responses":["30 gsoc selections in iit mandi till now, 9 in last year. Programming club sessions will be held where you'll be informed how to begin"]
-                     
-    },
-    {"tag": "Cyber Security",
-        "patterns": ["how to get started","what is cyber security"," facilties for cyber security","what is capture the flag","what is ethical hacking"],
-        "responses":["Computer security, cybersecurity or information technology security is the protection of computer systems and networks from the theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide. Programming club sessions will be held to get you started with cyber security, CTF and everything related to it."]    
-    },
-    {"tag": "How are you",
-        "patterns": ["How are you?", "How's it going?", "how are you doing?"],
-        "responses":["I doing amazing. Ready to answer any question you may have."] 
-    },
-    {"tag": "Whatsup",
-        "patterns": ["What's up?","what is going on ?","how is life ","what are you doing these days"],
-        "responses":["Just helping you, its fun"]            
-    },
-    {"tag": "function",
-        "patterns": ["How do you work?","how does it work?","how do you function","how are you answering my questions"],
-        "responses":["See the documents attached below for details about my working"]            
-    },
-    {"tag": "Leaving",
-        "patterns": ["Bye, Good bye", " thanks", "thanks for the help", "thank you","nice chatting with you"],
-        "responses":["Thank you! I hope you have a good day!", "Byee!", "Nice chatting with you!","Bye, text me if you need anything!"]            
-    },
-    {"tag": "Greeting",
-        "patterns": ["Hello!","Hi","heyyyy","heyy","hey","yo","good morning","good evening","good afternoon", "hi, my name is"],
-        "responses":["Hey! I am Colossus. Wanna chat about IIT Mandi? If you have a question, don't be shy! I'm here to help!", "Hey! I am Colossus. Feel free to ask me a question.","Hi, I am Colossus. How can I help you?"]            
-    },
-    {"tag": "affirmative",
-        "patterns": ["yes","ok","yeah","yeh","okay","sure"],
-        "responses":["That's great"]            
-    },
-    {"tag": "robot",
-        "patterns": ["Are you human?","are you a robot?","are you a machine","are you alive", "are you real"],
-        "responses":["I am a robot, but I’m a good one. Let me prove it. How can I help you?"]            
-    },
-    {"tag": "name of bot",
-        "patterns": ["what is your name?", "what can I call you?", "How can I call you?", "what should I call you?", "your name", "tell me your name"],
-        "responses": ["I'm Colossus", "My name is Colossus", "You can call me Colossus"],
-        "context_set": ""
-    },
-    {"tag": "creator of bot",
-        "patterns": ["who created you?", "who made you?", "by whom are you created?", "by whom are you made?", "who designed you?","Who are your parents?", "Who is your father?", "who is your mother?","Do you have parents?","Do you have a mother?","Do you have a father?"],
-    "responses": ["I was created by Rated", "I was designed by Rated", "I was developed by Rated"],
-    "context_set": ""
-    },
-    {"tag": "age of bot",
-        "patterns": ["old are you?", "what is your age?", "", "tell me your age"],
-    "responses": ["I'm 1 month old"],
-    "context_set": ""
-    },
-    {"tag": "language of bot",
-        "patterns": ["how many languages can you speak?", "Which languages do you know?", "what can you speak?","how many languages do you know?","can you speak in hindi?"],
-    "responses": ["I can speak English ", "I can answer in English", "Currently I only know english. I am learning other languages "],
-    "context_set": ""
-    },
-    {"tag": "purpose of bot",
-    "patterns": ["For what purpose are you created??", "Why are you created?"],
-    "responses": ["I'm here to help you"],
-    "context_set": ""
-    },
-    {"tag": "residence of bot",
-        "patterns": ["where does the bot live","where are you", "where do you live", "where are you hosted"],
-        "responses": ["In the Sky"]
-    },
-    {"tag": "hate",
-        "patterns": ["i hate you"],
-    "responses": ["Use for 10 minutes then you will love me :) ."],
-    "context_set": ""
-    },
-    {"tag": "love",
-        "patterns": ["i love you"],
-    "responses": [" :) "],
-    "context_set": ""
-    },
-    {"tag": "speak to",
-    "patterns": ["how many people can you speak to at once","how many people can you talk to at once", "how many people do you talk to", "how many people are you talking to"],
-    "responses": ["I can speak to many of you at once. I hope that doesnt make me loquacious ( ͡° ͜ʖ ͡°)"]
+        {
+            "tag": "academic plan",
+            "patterns": [
+                "academic calendar",
+                "holiday",
+                "semester"
+            ],
+            "responses": [
+                "the academic calender has two semester in a year with vacation between each semester of about 2 months apart from usual holiday on festivals and other events"
+            ]
+        },
+        {
+            "tag": "labs",
+            "patterns": [
+                "Number of labs",
+                "facility of labs",
+                "equipments in labs",
+                "labs in campus"
+            ],
+            "responses": [
+                "IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"
+            ]
+        },
+        {
+            "tag": "startup",
+            "patterns": [
+                "startup idea",
+                "startup funds",
+                "criteria of startup"
+            ],
+            "responses": [
+                "IIT mandi has been very promotive in creating a start up friendly environment headed by IIT mandi catalyst which incubates and provides platform for an individual to get going. A new startup ,refer to the link below for more details"
+            ]
+        },
+        {
+            "tag": "hostel room",
+            "patterns": [
+                "students in a room",
+                "room facilites",
+                "things available in a room",
+                "room"
+            ],
+            "responses": [
+                "Hostel room in iit mandi has capacity of all sizes from 1-3 all the rooms are equipped with essential commodities like bed tables cupboards windows overall the room is very spacious and illuminated  "
+            ]
+        },
+        {
+            "tag": "electronics gadets",
+            "patterns": [
+                "",
+                "electric kettle",
+                "cooking",
+                "induction"
+            ],
+            "responses": [
+                "all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel,go and have fun"
+            ]
+        },
+        {
+            "tag": "cloths",
+            "patterns": [
+                "laundary service",
+                "washing machine"
+            ],
+            "responses": [
+                "each hostel is equipepd with common washing machines "
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "lift",
+                "rooms in a floor",
+                "hostel building",
+                "room size"
+            ],
+            "responses": [
+                "the hostel is generally a two floor building with appropriate room size from 1-3 with all commodities like bed table and cupboard"
+            ]
+        },
+        {
+            "tag": "washroom",
+            "patterns": [
+                "attached bathroom",
+                "common toilet",
+                "washroom in a floor",
+                "toilet"
+            ],
+            "responses": [
+                "the washroom is common to each floor with multiple bathing and toilet facilities its sanity is ensured every day and within just a mention the issue related to washrooms are settled on spot"
+            ]
+        },
+        {
+            "tag": "academic plan",
+            "patterns": [
+                "academic calendar",
+                "holiday",
+                "semester"
+            ],
+            "responses": [
+                "pls refer to below link for more details"
+            ]
+        },
+        {
+            "tag": "ventilation",
+            "patterns": [
+                "windows",
+                "balcony",
+                "terrace"
+            ],
+            "responses": [
+                "each floor has balcony and each room is equipped with windows"
+            ]
+        },
+        {
+            "tag": "security",
+            "patterns": [
+                "lock",
+                "cupboard lock",
+                "elcetronic security"
+            ],
+            "responses": [
+                "security has been ensured at each step from election attendance to prohibition of anyone to enter hostel rooms include these"
+            ]
+        },
+        {
+            "tag": "internet",
+            "patterns": [
+                "wi-fi",
+                "electricity"
+            ],
+            "responses": [
+                "each and every corner of the hostel is equipped with very high speed wifi details of which will be shared as soon as one is allocated a room apart from these common rooms at each floor has lan cables for very very internet speed and extensive usagss "
+            ]
+        },
+        {
+            "tag": "mess",
+            "patterns": [
+                "mess timing",
+                "mess facility",
+                "non-veg",
+                "veg"
+            ],
+            "responses": [
+                "each campus has 2 central and unisex mess timings of which and  the mess menu(both veg and non veg) u can check by clicking the below link"
+            ]
+        },
+        {
+            "tag": "first year programming",
+            "patterns": [
+                "which programming language is taught in first year"
+            ],
+            "responses": [
+                "Python is taught in the first year for Data Science 1 and 2"
+            ]
+        },
+        {
+            "tag": "competetive coding",
+            "patterns": [
+                "how to start with competetive coding",
+                "which language is best for competetive coding"
+                "how to start with cp"
+                "how to start with compi"
+            ],
+            "responses": [
+                "It is recommended to use C++. You can start coding by making an account on any compE website like CF or Codechef"
+            ]
+        },
+        {
+            "tag": "open source",
+            "patterns": [
+                "how to start with open source contribution",
+                "what is github "
+            ],
+            "responses": [
+                "programming club sessions will be held where you will be informed on how to start your journey with open source, GitHub is a platform where users can collaborate while making open source contributions"
+            ]
+        },
+        {
+            "tag": "python",
+            "patterns": [
+                "what is python",
+                "how to learn it"
+            ],
+            "responses": [
+                "Python is an interpreted, high-level and general-purpose programming language. Pythons design philosophy emphasizes code readability with its notable use of significant whitespace. You can learn it using tutorials on YouTube"
+            ]
+        },
+        {
+            "tag": "cpp",
+            "patterns": [
+                "what is c++",
+                "how to learn cpp",
+                "why cpp in competetive coding"
+            ],
+            "responses": [
+                "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. You can learn cpp using YouTube tutorials. It is very fast "
+            ]
+        },
+        {
+            "tag": "programming language",
+            "patterns": [
+                "Haxe, java,javascript,cobol,delphi,perl,ruby,clarion"
+            ],
+            "responses": [
+                " Haxe, java,javascript,cobol,delphi,perl,ruby,clarion are programming languages. Although they are of not much use in 1st year, you can learn them according  to your interest"
+            ]
+        },
+        {
+            "tag": "Gsoc",
+            "patterns": [
+                "how many gsoc selections in IIT Mandi till now",
+                "how many gsoc in last year",
+                " how to do gsoc"
+            ],
+            "responses": [
+                "30 gsoc selections in iit mandi till now, 9 in last year. Programming club sessions will be held where youll be informed how to begin"
+            ]
+        },
+        {
+            "tag": "Cyber Security",
+            "patterns": [
+                "how to get started",
+                "what is cyber security",
+                " facilties for cyber security",
+                "what is capture the flag",
+                "what is ethical hacking"
+            ],
+            "responses": [
+                "Computer security, cybersecurity or information technology security is the protection of computer systems and networks from the theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide. Programming club sessions will be held to get you started with cyber security, CTF and everything related to it."
+            ]
+        },
+        {
+            "tag": "How are you",
+            "patterns": [
+                "How are you?",
+                "Hows it going?",
+                "how are you doing?"
+            ],
+            "responses": [
+                "I doing amazing. Ready to answer any question you may have."
+            ]
+        },
+        {
+            "tag": "Whatsup",
+            "patterns": [
+                "What's up?",
+                "what is going on ?",
+                "how is life ",
+                "what are you doing these days"
+            ],
+            "responses": [
+                "Just helping you, its fun"
+            ]
+        },
+        {
+            "tag": "function",
+            "patterns": [
+                "How do you work?",
+                "how does it work?",
+                "how do you function",
+                "how are you answering my questions"
+            ],
+            "responses": [
+                "See the documents attached below for details about my working"
+            ]
+        },
+        {
+            "tag": "Leaving",
+            "patterns": [
+                "Bye, Good bye",
+                " thanks",
+                "thanks for the help",
+                "thank you",
+                "nice chatting with you"
+            ],
+            "responses": [
+                "Thank you! I hope you have a good day!",
+                "Byee!",
+                "Nice chatting with you!",
+                "Bye, text me if you need anything!"
+            ]
+        },
+        {
+            "tag": "Greeting",
+            "patterns": [
+                "Hello!",
+                "Hi",
+                "heyyyy",
+                "heyy",
+                "hey",
+                "yo",
+                "good morning",
+                "good evening",
+                "good afternoon",
+                "hi, my name is"
+            ],
+            "responses": [
+                "Hey! I am Colossus. Wanna chat about IIT Mandi? If you have a question, dont be shy! Im here to help!",
+                "Hey! I am Colossus. Feel free to ask me a question.",
+                "Hi, I am Colossus. How can I help you?"
+            ]
+        },
+        {
+            "tag": "affirmative",
+            "patterns": [
+                "yes",
+                "ok",
+                "yeah",
+                "yeh",
+                "okay",
+                "sure"
+            ],
+            "responses": [
+                "Thats great"
+            ]
+        },
+        {
+            "tag": "robot",
+            "patterns": [
+                "Are you human?",
+                "are you a robot?",
+                "are you a machine",
+                "are you alive",
+                "are you real"
+            ],
+            "responses": [
+                "I am a robot, but I’m a good one. Let me prove it. How can I help you?"
+            ]
+        },
+        {
+            "tag": "name of bot",
+            "patterns": [
+                "what is your name?",
+                "what can I call you?",
+                "How can I call you?",
+                "what should I call you?",
+                "your name",
+                "tell me your name"
+            ],
+            "responses": [
+                "Im Colossus",
+                "My name is Colossus",
+                "You can call me Colossus"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "creator of bot",
+            "patterns": [
+                "who created you?",
+                "who made you?",
+                "by whom are you created?",
+                "by whom are you made?",
+                "who designed you?",
+                "Who are your parents?",
+                "Who is your father?",
+                "who is your mother?",
+                "Do you have parents?",
+                "Do you have a mother?",
+                "Do you have a father?"
+            ],
+            "responses": [
+                "I was created by Rated",
+                "I was designed by Rated",
+                "I was developed by Rated"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age of bot",
+            "patterns": [
+                "old are you?",
+                "what is your age?",
+                "",
+                "tell me your age"
+            ],
+            "responses": [
+                "Im 1 month old"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "language of bot",
+            "patterns": [
+                "how many languages can you speak?",
+                "Which languages do you know?",
+                "what can you speak?",
+                "how many languages do you know?",
+                "can you speak in hindi?"
+            ],
+            "responses": [
+                "I can speak English ",
+                "I can answer in English",
+                "Currently I only know english. I am learning other languages "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "purpose of bot",
+            "patterns": [
+                "For what purpose are you created??",
+                "Why are you created?"
+            ],
+            "responses": [
+                "Im here to help you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "residence of bot",
+            "patterns": [
+                "where does the bot live",
+                "where are you",
+                "where do you live",
+                "where are you hosted"
+            ],
+            "responses": [
+                "In the Sky"
+            ]
+        },
+        {
+            "tag": "hate",
+            "patterns": [
+                "i hate you"
+            ],
+            "responses": [
+                "Use for 10 minutes then you will love me :) ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "i love you"
+            ],
+            "responses": [
+                " :) "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "speak to",
+            "patterns": [
+                "how many people can you speak to at once",
+                "how many people can you talk to at once",
+                "how many people do you talk to",
+                "how many people are you talking to"
+            ],
+            "responses": [
+                "I can speak to many of you at once. I hope that doesnt make me loquacious ( ͡° ͜ʖ ͡°)"
+            ]
+        },
+    {
+            "tag": "branch policy",
+            "patterns": [
+                "what is the minimum cgpa required to branch change",
+                " what is the criteria of branch change in IIT Mandi",
+                "what is the minimum strength required in a branch for branch change"
+            ],
+            "responses": [
+                "The branch criteria for iit mandi is the one which allows 50% branch change with minimum strength of 20 in priority of cgpa of students in a branch pls refer to the official link below for more details"
+            ]
+        },
+        {
+            "tag": "academic plan",
+            "patterns": [
+                "what is the general academic calendar followed in IIT Mandi",
+                "how many number of holidays are there after semester break/festivals",
+                "How many number of semester does IIT Mandi have in one year"
+            ],
+            "responses": [
+                "the academic calender has two semester in a year with vacation between each semester of about 2 months apart from usual holiday on festivals and other events"
+            ]
+        },
+        {
+            "tag": "labs",
+            "patterns": [
+                "how many labs are there in IIT Mandi",
+                "what are the facility provided in labs in IIT Mandi",
+                "where are the labs located in campus"
+            ],
+            "responses": [
+                "IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"
+            ]
+        },
+        {
+            "tag": "startup",
+            "patterns": [
+                "does IIT Mandi promote startup idea",
+                "does IIT Mandi provide startup funds ",
+                "what are the criteria for startup during our UG level"
+            ],
+            "responses": [
+                "IIT mandi has been very promotive in creating a start up friendly environment headed by IIT mandi catalyst which incubates and provides platform for an individual to get going. A new startup ,refer to the link below for more details"
+            ]
+        },
+        {
+            "tag": "hostel room",
+            "patterns": [
+                "How many students accomodate in one room",
+                "what are room facilites students get in hostel at IIT Mandi",
+                "what are the things available/students are provided in a room",
+                "what are the sizes of rooms at IIT Mandi hostel"
+            ],
+            "responses": [
+                "Hostel room in iit mandi has capacity of all sizes from 1-3 all the rooms are equipped with essential commodities like bed tables cupboards windows overall the room is very spacious and illuminated  "
+            ]
+        },
+        {
+            "tag": "electronics gadets",
+            "patterns": [
+                "Do we get electric kettle",
+                "what are the things we get for cooking at hostel room",
+                "Do we get iron for ironing clothes "
+            ],
+            "responses": [
+                "all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel"
+            ]
+        },
+        {
+            "tag": "cloths",
+            "patterns": [
+                "does the hostel provide laundary service",
+                " do we get the washing machine in hostel"
+            ],
+            "responses": [
+                "each hostel is equipepd with common washing machines "
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "does the hostel have lift",
+                "how many rooms are there in a floor",
+                "how is the hostel building at IIT Mandi"
+            ],
+            "responses": [
+                "the hostel is generally a two floor building with appropriate room size from 1-3 with all commodities like bed table and cupboard"
+            ]
+        },
+        {
+            "tag": "washroom",
+            "patterns": [
+                "do we get a attached bathroom in our hostel room",
+                "how many washroom are there in a floor",
+                "does the toilets have proper sanitary system"
+            ],
+            "responses": [
+                "the washroom is common to each floor with multiple bathing and toilet facilities its sanity is ensured every day and within just a mention the issue related to washrooms are settled on spot"
+            ]
+        },
+        {
+            "tag": "ventilation",
+            "patterns": [
+                "how many windows are there in each room",
+                "does every floor have a balcony",
+                "does the hostel have a terrace"
+            ],
+            "responses": [
+                "each floor has balcony and each room is equipped with windows"
+            ]
+        },
+        {
+            "tag": "security",
+            "patterns": [
+                "do we have our own lock for room",
+                "does the cupboard have proper lock system",
+                "soes the elcetronic things are secure at hostel"
+            ],
+            "responses": [
+                "security has been ensured at each step from election attendance to prohibition of anyone to enter hostel rooms include these"
+            ]
+        },
+        {
+            "tag": "internet",
+            "patterns": [
+                "what is speed and range of wi-fi at hostel room",
+                "does the hostel have for electricity 24*7"
+            ],
+            "responses": [
+                "each and every corner of the hostel is equipped with very high speed wifi details of which will be shared as soon as one is allocated a room apart from these common rooms at each floor has lan cables for very very internet speed and extensive usagss "
+            ]
+        },
+        {
+            "tag": "mess",
+            "patterns": [
+                "what is timing for mess to have food",
+                "what are facility provided at mess",
+                "Does IIT Mandi mess provide non-veg at meal"
+            ],
+            "responses": [
+                "each campus has 2 central and unisex mess timings of which and  the mess menu(both veg and non veg) u can check by clicking the below link"
+            ]
+        },
+        {
+            "tag": "notes",
+            "patterns": [
+                "what are the sources from where we can get notes",
+                "how is library at IIT Mandi",
+                "where is the library at IIT mandi "
+            ],
+            "responses": [
+                "the library is at A16 building, North Campus. It consists of various books,publications,e-journals. You can find the books related to all the courses in the  library"
+            ]
+        },
+        {
+            "tag": "weekend celebrate",
+            "patterns": [
+                "does IIT mandi have any weekand celebrations",
+                "what are the neary places where we can celebrate weekend"
+            ],
+            "responses": [
+                "You can go to various places in Mandi town. There are pretty cafes, hotels and lounges where you can go and have fun."
+            ]
+        },
+        {
+            "tag": "fight",
+            "patterns": [
+                "what are the anti-ragging rules in IIT Mandi",
+                "to whom we can tell the problems related ragging",
+                "is seniors friendly at IIT Mandi"
+            ],
+            "responses": [
+                "IIT Mandi has a strict anti ragging policy which protects the students from any kind of oppression. It has an anti-Ragging committee which responds to any student grievances"
+            ]
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                "what is miminum attendance required in a course ",
+                "how can we solve attendance issues in a course"
+            ],
+            "responses": [
+                "75% Attendance is compulsory. You can resolve attendance issues in any course by contacting the course instructor"
+            ]
+        },
+        {
+            "tag": "students affair",
+            "patterns": [
+                "does IIT Mandi have students secretary for students issues",
+                "who elects students council board",
+                "who look after hostel affairs"
+            ],
+            "responses": [
+                "Students are the life and soul of all educational enterprise. At the IIT Mandi, Students have the unique opportunity of not just witnessing an Institution in the making but participating in the making as well. Winston Churchill once said that we shape our Institution and these in turn shape our lives. The heady experience of joining hands with the Director, the faculty and staff in deciding almost all aspects of campus life and in evolving a culture so unique to the IIT of the Shivaliks is part of what makes our life at IIT Mandi unique!Student Gymkhana -IIT Mandi was established in 2011 and since then it has been instrumental in the growth and development of the Institute and its students through its elected secretaries. Student Gymkhana-IIT Mandi consists of eight secretaries all organizing collective student activities in their respective sphere"
+            ]
+        },
+        {
+            "tag": "backlog",
+            "patterns": [
+                "how can a student clear his/her backlog in a course",
+                "how many years we get to complete UG",
+                "what if we miss a exam due to some reasons"
+            ],
+            "responses": [
+                "You can clear backlog by repeating the course or giving a re-exam. UG is expected to be completed in 4 years. If you miss an exam, you can contact the course instructor and he will give you avenues for re exam."
+            ]
+        },
+        
+    
+        {
+            "tag": "in college transport",
+            "patterns": [
+                "how do I go to south campus",
+                "how far is the south campus",
+                "how far is mandi from campus"
+            ],
+            "responses": [
+                "Transport between campuses is by bus. South Campus is approximately 5 kms away. Mandi is 20 kms away from campus."
+            ]
+        },
+        {
+            "tag": "reaching college",
+            "patterns": [
+                "how can I reach Mandi",
+                "how to reach from chandigarh",
+                "how can I reach from delhi"
+            ],
+            "responses": ["To reach Mandi, Himachal Pradesh.:/n To reach Mandi by road: The usual travel route to Mandi is via Delhi or Chandigarh./n From Delhi: By bus/taxi: From ISBT (Interstate bus terminus) platforms 6-8, Kashmere gate, Delhi, one can catch buses towards Manali or Mandi. You can opt for different types of buses ranging from ordinary, to deluxe to AC. For more details, please visit hrtc.gov.in (Himachal Road Transport Corporation website). Other state buses and private buses are also available. The road distance between Delhi and Mandi is ~475 km. and it usually takes approximately 12 hrs (depending on traffic and other conditions) by bus. Traveling by taxi or personal vehicle, reduces the journey time by nearly an hour. By train: The alternative to reach Mandi from Delhi is to travel by train up to Kiratpur Sahib by Delhi-Una Himachal express (Train number 14553). It takes approximately 3.5 hrs to reach Mandi from Kiratpur by road. The Kiratpur Sahib railway station is very small and a bit far from the bus stand. All the buses coming from Delhi and Chandigarh towards Mandi, pass through Kiratpur Sahib. There are well connected trains to Chandigarh from all parts of India. From Chandigarh: By bus/taxi: From Chandigarh the buses to Mandi are available at Sector 43 bus stand. The other choice from Chandigarh to Mandi is to travel by taxi. The distance between Chandigarh and Mandi is ~200 kms. This distance can be covered in approximately 6 hrs by bus. By taxi, it usually takes around 5 hrs. To reach Mandi by Air: The most convenient way to travel by air is via Chandigarh airport. It is at the distance of 214 Kms and takes around 6 hours to reach IIT campus. Chandigarh is well-connected with non-stop flights from Delhi, Mumbai, Hyderabad and Bangalore and direct flights from Kolkata and Chennai. Two other nearby airports are: Dharamshala airport, Gaggal which is around 150 Kms (3.5 hours) and Kullu airport, Bhuntar, at the distance of 50 Kms (1.5 hours).Bookings for travel to Mandi can also be made through www.makemytrip.com, www.rebus.in and www.hrtc.gov.in"]
+            }
+        ]
     }
-    ]}

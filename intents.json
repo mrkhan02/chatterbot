@@ -171,9 +171,8 @@
             "tag": "competetive coding",
             "patterns": [
                 "how to start with competetive coding",
-                "which language is best for competetive coding"
-                "how to start with cp"
-                "how to start with compi"
+                "which language is best for competetive coding","how to start with cp"
+                ,"how to start with compi"
             ],
             "responses": [
                 "It is recommended to use C++. You can start coding by making an account on any compE website like CF or Codechef"
@@ -464,7 +463,7 @@
                 "I can speak to many of you at once. I hope that doesnt make me loquacious ( ͡° ͜ʖ ͡°)"
             ]
         },
-    {
+        {
             "tag": "branch policy",
             "patterns": [
                 "what is the minimum cgpa required to branch change",
@@ -670,8 +669,6 @@
                 "You can clear backlog by repeating the course or giving a re-exam. UG is expected to be completed in 4 years. If you miss an exam, you can contact the course instructor and he will give you avenues for re exam."
             ]
         },
-        
-    
         {
             "tag": "in college transport",
             "patterns": [
@@ -690,7 +687,151 @@
                 "how to reach from chandigarh",
                 "how can I reach from delhi"
             ],
-            "responses": ["To reach Mandi, Himachal Pradesh.:/n To reach Mandi by road: The usual travel route to Mandi is via Delhi or Chandigarh./n From Delhi: By bus/taxi: From ISBT (Interstate bus terminus) platforms 6-8, Kashmere gate, Delhi, one can catch buses towards Manali or Mandi. You can opt for different types of buses ranging from ordinary, to deluxe to AC. For more details, please visit hrtc.gov.in (Himachal Road Transport Corporation website). Other state buses and private buses are also available. The road distance between Delhi and Mandi is ~475 km. and it usually takes approximately 12 hrs (depending on traffic and other conditions) by bus. Traveling by taxi or personal vehicle, reduces the journey time by nearly an hour. By train: The alternative to reach Mandi from Delhi is to travel by train up to Kiratpur Sahib by Delhi-Una Himachal express (Train number 14553). It takes approximately 3.5 hrs to reach Mandi from Kiratpur by road. The Kiratpur Sahib railway station is very small and a bit far from the bus stand. All the buses coming from Delhi and Chandigarh towards Mandi, pass through Kiratpur Sahib. There are well connected trains to Chandigarh from all parts of India. From Chandigarh: By bus/taxi: From Chandigarh the buses to Mandi are available at Sector 43 bus stand. The other choice from Chandigarh to Mandi is to travel by taxi. The distance between Chandigarh and Mandi is ~200 kms. This distance can be covered in approximately 6 hrs by bus. By taxi, it usually takes around 5 hrs. To reach Mandi by Air: The most convenient way to travel by air is via Chandigarh airport. It is at the distance of 214 Kms and takes around 6 hours to reach IIT campus. Chandigarh is well-connected with non-stop flights from Delhi, Mumbai, Hyderabad and Bangalore and direct flights from Kolkata and Chennai. Two other nearby airports are: Dharamshala airport, Gaggal which is around 150 Kms (3.5 hours) and Kullu airport, Bhuntar, at the distance of 50 Kms (1.5 hours).Bookings for travel to Mandi can also be made through www.makemytrip.com, www.rebus.in and www.hrtc.gov.in"]
-            }
-        ]
-    }
+            "responses": [
+                "To reach Mandi, Himachal Pradesh.:/n To reach Mandi by road: The usual travel route to Mandi is via Delhi or Chandigarh./n From Delhi: By bus/taxi: From ISBT (Interstate bus terminus) platforms 6-8, Kashmere gate, Delhi, one can catch buses towards Manali or Mandi. You can opt for different types of buses ranging from ordinary, to deluxe to AC. For more details, please visit hrtc.gov.in (Himachal Road Transport Corporation website). Other state buses and private buses are also available. The road distance between Delhi and Mandi is ~475 km. and it usually takes approximately 12 hrs (depending on traffic and other conditions) by bus. Traveling by taxi or personal vehicle, reduces the journey time by nearly an hour. By train: The alternative to reach Mandi from Delhi is to travel by train up to Kiratpur Sahib by Delhi-Una Himachal express (Train number 14553). It takes approximately 3.5 hrs to reach Mandi from Kiratpur by road. The Kiratpur Sahib railway station is very small and a bit far from the bus stand. All the buses coming from Delhi and Chandigarh towards Mandi, pass through Kiratpur Sahib. There are well connected trains to Chandigarh from all parts of India. From Chandigarh: By bus/taxi: From Chandigarh the buses to Mandi are available at Sector 43 bus stand. The other choice from Chandigarh to Mandi is to travel by taxi. The distance between Chandigarh and Mandi is ~200 kms. This distance can be covered in approximately 6 hrs by bus. By taxi, it usually takes around 5 hrs. To reach Mandi by Air: The most convenient way to travel by air is via Chandigarh airport. It is at the distance of 214 Kms and takes around 6 hours to reach IIT campus. Chandigarh is well-connected with non-stop flights from Delhi, Mumbai, Hyderabad and Bangalore and direct flights from Kolkata and Chennai. Two other nearby airports are: Dharamshala airport, Gaggal which is around 150 Kms (3.5 hours) and Kullu airport, Bhuntar, at the distance of 50 Kms (1.5 hours).Bookings for travel to Mandi can also be made through www.makemytrip.com, www.rebus.in and www.hrtc.gov.in"
+            ]
+        },
+        {
+            "tag": "branch policy",
+            "patterns": [
+                "what is the minimum cgpa required to branch change",
+                " what is the criteria of branch change in IIT Mandi",
+                "what is the minimum strength required in a branch for branch change"
+            ],
+            "responses": [
+                "The branch criteria for iit mandi is the one which allows 50% branch change with minimum strength of 20 in priority of cgpa of students in a branch pls refer to the official link below for more details"
+            ]
+        },
+        {
+            "tag": "academic plan",
+            "patterns": [
+                "what is the general academic calendar followed in IIT Mandi",
+                "how many number of holidays are there after semester break/festivals",
+                "How many number of semester does IIT Mandi have in one year"
+            ],
+            "responses": [
+                "the academic calender has two semester in a year with vacation between each semester of about 2 months apart from usual holiday on festivals and other events"
+            ]
+        },
+        {
+            "tag": "labs",
+            "patterns": [
+                "how many labs are there in IIT Mandi",
+                "what are the facility provided in labs in IIT Mandi",
+                "where are the labs located in campus"
+            ],
+            "responses": [
+                "IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"
+            ]
+        },
+        {
+            "tag": "startup",
+            "patterns": [
+                "does IIT Mandi promote startup idea",
+                "does IIT Mandi provide startup funds ",
+                "what are the criteria for startup during our UG level"
+            ],
+            "responses": [
+                "IIT mandi has been very promotive in creating a start up friendly environment headed by IIT mandi catalyst which incubates and provides platform for an individual to get going. A new startup ,refer to the link below for more details"
+            ]
+        },
+        {
+            "tag": "hostel room",
+            "patterns": [
+                "How many students accomodate in one room",
+                "what are room facilites students get in hostel at IIT Mandi",
+                "what are the things available/students are provided in a room",
+                "what are the sizes of rooms at IIT Mandi hostel"
+            ],
+            "responses": [
+                "Hostel room in iit mandi has capacity of all sizes from 1-3 all the rooms are equipped with essential commodities like bed tables cupboards windows overall the room is very spacious and illuminated  "
+            ]
+        },
+        {
+            "tag": "electronics gadets",
+            "patterns": [
+                "Do we get electric kettle",
+                "what are the things we get for cooking at hostel room",
+                "Do we get iron for ironing clothes "
+            ],
+            "responses": [
+                "all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel"
+            ]
+        },
+        {
+            "tag": "cloths",
+            "patterns": [
+                "does the hostel provide laundary service",
+                " do we get the washing machine in hostel"
+            ],
+            "responses": [
+                "each hostel is equipepd with common washing machines "
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "does the hostel have lift",
+                "how many rooms are there in a floor",
+                "how is the hostel building at IIT Mandi"
+            ],
+            "responses": [
+                "the hostel is generally a two floor building with appropriate room size from 1-3 with all commodities like bed table and cupboard"
+            ]
+        },
+        {
+            "tag": "washroom",
+            "patterns": [
+                "do we get a attached bathroom in our hostel room",
+                "how many washroom are there in a floor",
+                "does the toilets have proper sanitary system"
+            ],
+            "responses": [
+                "the washroom is common to each floor with multiple bathing and toilet facilities its sanity is ensured every day and within just a mention the issue related to washrooms are settled on spot"
+            ]
+        },
+        {
+            "tag": "ventilation",
+            "patterns": [
+                "how many windows are there in each room",
+                "does every floor have a balcony",
+                "does the hostel have a terrace"
+            ],
+            "responses": [
+                "each floor has balcony and each room is equipped with windows"
+            ]
+        },
+        {
+            "tag": "security",
+            "patterns": [
+                "do we have our own lock for room",
+                "does the cupboard have proper lock system",
+                "soes the elcetronic things are secure at hostel"
+            ],
+            "responses": [
+                "security has been ensured at each step from election attendance to prohibition of anyone to enter hostel rooms include these"
+            ]
+        },
+        {
+            "tag": "internet",
+            "patterns": [
+                "what is speed and range of wi-fi at hostel room",
+                "does the hostel have for electricity 24*7"
+            ],
+            "responses": [
+                "each and every corner of the hostel is equipped with very high speed wifi details of which will be shared as soon as one is allocated a room apart from these common rooms at each floor has lan cables for very very internet speed and extensive usagss "
+            ]
+        },
+        {
+            "tag": "mess",
+            "patterns": [
+                "what is timing for mess to have food",
+                "what are facility provided at mess",
+                "Does IIT Mandi mess provide non-veg at meal"
+            ],
+            "responses": [
+                "each campus has 2 central and unisex mess timings of which and  the mess menu(both veg and non veg) u can check by clicking the below link"
+            ]
+        }
+    ]
+}
